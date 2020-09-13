@@ -8,7 +8,7 @@ const main = () => {
         fetch('https://covid19.mathdro.id/api/countries/' + inputCountry.value)
          .then(response => response.json())
          .then (data => {
-            let totalData = `${data.confirmed.value}-${data.recovered.value}-${data.deaths.value}`;
+            let totalData = `${data.confirmed.value - data.recovered.value - data.deaths.value}`;
             let output = '';
             console.log(data);
                output += 
