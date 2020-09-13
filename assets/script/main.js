@@ -16,6 +16,15 @@ const main = () => {
                <h1 class="text-center text-secondary">${inputCountry.value}</h1>
 
         <div class="card-deck">
+            <div class="card border-primary">
+              <div class="card-body text-primary">
+                <h5 class="card-title">Total Positive (Sisa Positif)</h5>
+                <p class="card-text h2">${totalData}</div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated ${data.lastUpdate}</small>
+              </div>
+            </div> 
+
             <div class="card border-danger">
               <div class="card-body text-danger">
                 <h5 class="card-title">Positive (Positif)</h5>
@@ -42,15 +51,6 @@ const main = () => {
                 <small class="text-muted">Last updated ${data.lastUpdate}</small>
               </div>
             </div>
-
-           <div class="card border-primary">
-              <div class="card-body text-primary">
-                <h5 class="card-title">Total Positive (Sisa Positif)</h5>
-                <p class="card-text h2">${totalData}</div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated ${data.lastUpdate}</small>
-              </div>
-            </div> 
 
           </div>
         </div>
