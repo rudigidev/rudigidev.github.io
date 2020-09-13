@@ -8,6 +8,7 @@ const main = () => {
         fetch('https://covid19.mathdro.id/api/countries/' + inputCountry.value)
          .then(response => response.json())
          .then (data => {
+            let totalData = `${data.confirmed.value}-${data.recovered.value}-${data.deaths.value}`;
             let output = '';
             console.log(data);
                output += 
@@ -41,6 +42,16 @@ const main = () => {
                 <small class="text-muted">Last updated ${data.lastUpdate}</small>
               </div>
             </div>
+
+           <div class="card border-primary">
+              <div class="card-body text-success">
+                <h5 class="card-title">Total Positive (Sisa Positif)</h5>
+                <p class="card-text h2">${totalData}</div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated ${data.lastUpdate}</small>
+              </div>
+            </div> 
+
           </div>
         </div>
         <br>
