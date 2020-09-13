@@ -44,7 +44,7 @@ const main = () => {
             </div>
 
            <div class="card border-primary">
-              <div class="card-body text-success">
+              <div class="card-body text-primary">
                 <h5 class="card-title">Total Positive (Sisa Positif)</h5>
                 <p class="card-text h2">${totalData}</div>
               <div class="card-footer">
