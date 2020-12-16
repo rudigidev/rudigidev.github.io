@@ -1,76 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Data Covid</title>
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudi Giyarto Fullstack Developer</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./92.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="./assets/font/fa/css/all.css">
 </head>
-
 <body>
-    <br>
-    <div class="contaniner">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Covid Data Finder</h1>
-              <p class="lead">Informasi Update data Covid-19 All Country</p>
+    <header>
+        <div class="navbar">
+
+                <div class="logo">
+                    <img src="./512.png" alt="logo-rudigidev">
+                </div>
+                <div class="bars">
+                    <i class="fas fa-stream" id="icon-bars" onclick="toggleNav()"></i>
+                </div>
+                <div class="nav" id="navku">
+                    <a href="#About" style="text-decoration: none;"><i class="far fa-address-card"></i> About</a>
+                    <a href="#Portfolio" style="text-decoration: none;"><i class="fas fa-code"></i> Portfolio</a>
+                    <a href="https://wa.me/qr/PGDO7IGLZ5XRK1" style="text-decoration: none;"><i class="fab fa-whatsapp"></i> Contact</a>
+                    <a href="#Certificate" style="text-decoration: none;"><i class="fas fa-graduation-cap"></i> My Certificate</a>
+                </div>
+                <div class="social-media" id="social-media">
+                    <a href="https://github.com/rudigidev"><i class="fab fa-github" ></i></a>
+                    <a href="https://wa.me/qr/PGDO7IGLZ5XRK1"><i class="fab fa-whatsapp" ></i></a>
+                    <a href="https://www.instagram.com/rudigiyarto"><i class="fab fa-instagram"></i></a>
+                </div>
+           
+        </div>
+    </header>
+    <main>
+
+        <div class="box1">
+            <img src="./assets//img/ilus.png" alt="" srcset="">
+        </div>
+
+        <div class="main-content">
+            <div class="m-left">
+                <h5>Hello,</h5>
+                <h2>I'm Rudi Giyarto</h2>
+                <p>
+                    Iam a Fullstack Developer Web and Mobile Using 
+                    ( React Js, React Native, PWA ) for Front End and 
+                    Node Js Express for Backend.
+                </p>
+                <button>Hire Me</button>
+                <button>Give Me A Project</button>
+                <p class="free">I'm Freelancer Too : </p>
+                <ul>
+                    <li>Pembuatan CV / Resume untuk Web</li>
+                    <li>Web Statis / Dinamis</li>
+                    <li>Frontend Developer (Web & Mobile)</li>
+                    <li>Backend Developer ( NodeJS, Rest API )</li>
+                </ul>
+                <p></p>
             </div>
-          </div>
-        <div class="input-group">
-            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-              <option selected>Choose Country...</option>
-            </select>
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" id="show">Show (Tampilkan)</button>
+            <div class="m-right">
+                <img src="./assets/img/circleotonon.png" alt="fotoku">
             </div>
-          </div>
-    </div>
-    <br>
-    
-    <div id="Data"></div>
+        </div>
 
-    <div class="team-boxed">
-      <div class="container">
-          <div class="intro">
-              <h2 class="text-center">Developer</h2>
-              <p class="text-center">Coding is dificult but more interesting if we solve the problem</p>
-          </div>
-          <div class="row people">
-              <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-4 offset-xl-4 item">
-                  <div class="box"><img class="rounded-circle" src="assets/img/foto CV.jpg">
-                      <h3 class="name">Rudi Giyarto</h3>
-                      <p class="title">Programmer</p>
-                      <p class="description">Dimulai dari kerja keras dan pengorbanan semua yang kita inginkan tercapai, namun di dalam kehidupan step selanjutnya akan selalu ada seperti menaiki tangga semakin naik semakin sulit dan semakin banyak godaan. `{Keep fight and
-                          Code}`.</p>
-                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <div class="main-content2" id="About">
+            <div class="row1">
+                <img src="./assets/img/ilus2.png" alt="ilus2">
+            </div>
+            <div class="row2">
+                <div class="col1">
+                    <h5>About Me,</h5>
+                    <!-- Link -->
+                    <div class="tab">
+                        <a class="tablink" onclick="openAbout(event, 'education')" id="defaultopen">Education</a>
+                        <a class="tablink" onclick="openAbout(event, 'life')">Life</a>
+                        <a class="tablink" onclick="openAbout(event, 'experience')">Experience</a>
+                    </div>
+                    <!-- Content Link -->
+                    <div class="tabcontent" id="life">
+                        <p>
+                            Saya seorang fullstack
+                        </p>
+                    </div>
+                    <div class="tabcontent" id="education">
+                        <p>( 2015 - 2019 ) Universitas Muhammadiyah Tangerang</p>
+                        <p>( 2019 - 2020 ) Dicoding Academy </p>
+                        <p>( 2019 - 2020 ) Progate Academy </p>
+                        <p>( 2020 - 2020 ) DTS Kominfo Thematic Academy</p>
+                    </div>
+                    <div class="tabcontent" id="experience">
+                        <p>
+                            My Exeprience
+                        </p>
+                    </div>
+                    <button class="cv"><a href="https://drive.google.com/file/d/1L4UqYEztCOtovWE4_7WcNcxpQDv0ObIv/view?usp=sharing" style="text-decoration: none; color: white; text-align: center;padding: 10px;">Download CV</a></button>
+                </div>
+                <div class="col2">
+                    <img src="./assets/img/aboutme.png" alt="" srcset="">
+                </div>
+                <div class="col3">
+                    <h3 class="judul">Skills</h3>
+                    <div class="front">
+                        <h6>Frontend</h6>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Css, Sass, Bootstrap</li>
+                            <li>JS, ES^, Ajax</li>
+                            <li>React JS & Native</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <h6>Backend</h6>
+                        <ul>
+                            <li>Node JS</li>
+                            <li>Express, Rest API</li>
+                            <li>My Sql, MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="others">
+                        <h6>Others</h6>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Coreldraw</li>
+                            <li>Adobe XD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="footer-basic">
-          <footer>
-              <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-              <ul class="list-inline">
-                  <li class="list-inline-item"><a href="#">Home</a></li>
-                  <li class="list-inline-item"><a href="#">Contact</a></li>
-                  <li class="list-inline-item"><a href="#">Developer</a></li>
-                  <li class="list-inline-item"><a href="#">github</a></li>
-                  <li class="list-inline-item"><a href="#"></a></li>
-              </ul>
-              <p class="copyright">rudigidev © 2020</p>
-          </footer>
+        <div class="main-content3" id="Portfolio">
+            <div class="cols1">Portfolio,</div>
+            <hr>
+            <br>
+            <div class="cols2">
+                <div class="container">
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="app.js" type="module"></script>
+                    <div class="mySlides">
+                        <div class="numbertext">1/5</div>
+                        <img src="./assets/img/portfolio/apt.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2/5</div>
+                        <img src="./assets/img/portfolio/sambibit.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3/5</div>
+                        <img src="./assets/img/portfolio/bri.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4/5</div>
+                        <img src="./assets/img/portfolio/bri2.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5/5</div>
+                        <img src="./assets/img/portfolio/wooden.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5/5</div>
+                        <img src="./assets/img/portfolio/mobileapt.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5/5</div>
+                        <img src="./assets/img/portfolio/mobilesambibit.png" alt="portfolioku" width="80%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/apt.png" style="width:90%" onclick="currentSlide(1)" alt="Ayo Piknik Temanggung">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/sambibit.png" style="width:90%" onclick="currentSlide(2)" alt="Sambi Bibit Tegaljoho">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/bri.png" style="width:90%" onclick="currentSlide(3)" alt="DTS Kominfo Case From BRI">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/bri2.png" style="width:90%" onclick="currentSlide(4)" alt="DTS Kominfo Case From BRI">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/wooden.png" style="width:90%" onclick="currentSlide(5)" alt="Wooden Craft">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/mobileapt.png" style="width:90%" onclick="currentSlide(6)" alt="Mobile Ayo Piknik Temanggung">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./assets/img/portfolio/mobilesambibit.png" style="width:90%" onclick="currentSlide(7)" alt="Mobile Wooden Craft">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cols3">
+                <button><a href="https://drive.google.com/file/d/1Brtba2VpPei-q7XEluR55HaYIw-TYF0E/view?usp=sharing">Download Portfolio</a></button>
+            </div>
+        </div>
+
+        <!-- Certificate -->
+        <div class="main-content4" id="Certificate">
+            <h2>My Certificate</h2>
+            <div class="container-certi">
+
+                    <div class="certi">
+                        <img src="./assets/img/coding/dicoding800.png">
+                        <div class="btn-view">
+                            <button id="btnopen"  class="btnopen" onclick="opencert(0)">View Certificate</button>
+                        </div>
+                        <div class="daftar-certi" id="daftar-certi">
+                            <button style="text-align: center;" class="btnclose" onclick="opencert(0)"><i class="fas fa-times"></i></button>
+                            <p>Web Dasar</p>
+                            <img src="./assets/img/certificate/dicodingdasar.png" alt="dicoding">
+                            <p>Fundamental Frontend</p>
+                            <img src="./assets/img/certificate/dicodingfunda.png" alt="dicoding">
+                            <p>PWA</p>
+                            <img src="./assets/img/certificate/dicodingpwa.png" alt="dicoding">
+                        </div>
+                    </div>
+                    <div class="certi">
+                        <img src="./assets/img/coding/progate.png">
+                        <div class="btn-view">
+                            <button id="btnopen"  class="btnopen" onclick="opencert(1)">View Certificate</button>
+                        </div>
+                        <div class="daftar-certi" id="daftar-certi">
+                            <button style="text-align: center;" class="btnclose" onclick="opencert(1)"><i class="fas fa-times"></i></button>
+                            <p>Pengembangan Web Node JS</p>
+                            <img src="./assets/img/certificate/progatenodejs.png" alt="progate" >
+                        </div>
+                    </div>
+                    <div class="certi">
+                        <img src="./assets/img/coding/dts.png">
+                        <div class="btn-view">
+                            <button id="btnopen"  class="btnopen" onclick="opencert(2)">View Certificate</button>
+                        </div>
+                        <div class="daftar-certi" id="daftar-certi">
+                            <button style="text-align: center;" class="btnclose" onclick="opencert(2)"><i class="fas fa-times"></i></button>
+                            <p>Frontend Thematic Academy</p>
+                            <p>Still Waiting From Kominfo</p>
+                            <img src="./assets/img/certificate//waiting2.gif" alt="DTS Kominfo">
+                        </div>
+                    </div>
+                    <div class="certi">
+                        <img src="./assets/img/coding/cfds.png">
+                        <div class="btn-view">
+                            <button id="btnopen"  class="btnopen" onclick="opencert(3)">View Certificate</button>
+                        </div>
+                        <div class="daftar-certi" id="daftar-certi">
+                            <button style="text-align: center;" class="btnclose" onclick="opencert(3)"><i class="fas fa-times"></i></button>
+                            <p>CFDS UGM Bootcamp</p>
+                            <img src="./assets/img/certificate/CFDSbootcamp.png" alt="cfds bootcamp" >
+                        </div>
+                    </div>
+                    <div class="certi">
+                        <img src="./assets/img/coding/bakti.png">
+                        <div class="btn-view">
+                            <button id="btnopen"  class="btnopen" onclick="opencert(4)">View Certificate</button>
+                        </div>
+                        <div class="daftar-certi" id="daftar-certi">
+                            <button style="text-align: center;" class="btnclose" onclick="opencert(4)"><i class="fas fa-times"></i></button>
+                            <p>Bakti Bootcamp</p>
+                            <img src="./assets/img/certificate/bakti.png" alt="bakti bootcamp">
+                        </div>
+                    </div>
+
+            </div>
+            
+        </div>
+        <!-- Certificate -->
+    </main>
+    <footer>
+        <div class="social-mediaku">
+            <a href="https://github.com/rudigidev"><i class="fab fa-github" style="color: white;font-size: 2em;"></i></a>
+            <a href="https://wa.me/qr/PGDO7IGLZ5XRK1"><i class="fab fa-whatsapp" style="color: white;font-size: 2em;"></i></a>
+            <a href="https://www.instagram.com/rudigiyarto"><i class="fab fa-instagram" style="color: white;font-size: 2em;"></i></a>
+        </div>
+        <div class="powered">
+            <p>@ 2020 rudigidev codingenwae</p>
+        </div>
+    </footer>
+<script src="./assets/font/fa/js/all.js"></script>
+<script src="./app.js"></script>
 </body>
-
 </html>

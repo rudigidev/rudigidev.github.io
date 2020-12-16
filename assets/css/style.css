@@ -1,0 +1,986 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  position: relative;
+  z-index: 1;
+}
+
+header .logo {
+  width: 25%;
+}
+
+header img {
+  height: 100px;
+  margin-left: 60px;
+  padding-top: 20px;
+}
+
+header .navbar .nav {
+  display: inline-block;
+  width: 50%;
+  padding-top: 40px;
+  text-align: left;
+}
+
+header .navbar .nav a {
+  height: 40px;
+  margin: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #707070;
+}
+
+header .navbar .nav a:hover {
+  color: #153F61;
+}
+
+header .navbar .nav a:active {
+  opacity: 0.6;
+}
+
+header .navbar .social-media {
+  width: 25%;
+  font-size: 2.5em;
+  padding-top: 25px;
+  text-align: center;
+}
+
+header .navbar a {
+  color: white;
+}
+
+header .bars {
+  display: none;
+}
+
+main .box1 {
+  position: relative;
+  float: right;
+  top: -104px;
+  z-index: 0;
+}
+
+main .box1 img {
+  height: 43em;
+}
+
+main .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 1;
+  top: -42em;
+  width: 100%;
+  padding: 5em;
+}
+
+main .main-content .m-left h5 {
+  font-size: 50px;
+  color: #707070;
+  font-weight: 100;
+}
+
+main .main-content .m-left h2 {
+  font-size: 80px;
+  color: #153F61;
+}
+
+main .main-content .m-left p {
+  font-size: 20px;
+  color: #707070;
+}
+
+main .main-content .m-left button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 220px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #153F61;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+main .main-content .m-left button:hover {
+  background-color: #707070;
+}
+
+main .main-content .m-left button:active {
+  background-color: whitesmoke;
+  color: #153F61;
+}
+
+main .main-content .m-left button:focus {
+  outline: 0;
+}
+
+main .main-content .m-left .free {
+  color: #153F61;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+main .main-content .m-left ul li {
+  color: #707070;
+  list-style: none;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+main .main-content .m-right {
+  margin-left: 40px;
+}
+
+main .main-content .m-right img {
+  height: 350px;
+}
+
+main .main-content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: -22em;
+}
+
+main .main-content2 .row1 {
+  width: 30%;
+}
+
+main .main-content2 .row1 img {
+  position: relative;
+  height: 80%;
+}
+
+main .main-content2 .row2 {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .main-content2 .row2 .col1 {
+  width: 50%;
+  height: 40%;
+  padding: 20px;
+}
+
+main .main-content2 .row2 .col1 h5 {
+  font-size: 50px;
+  color: #707070;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+main .main-content2 .row2 .col1 a {
+  color: #153F61;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+main .main-content2 .row2 .col1 a.active {
+  color: #707070;
+}
+
+main .main-content2 .row2 .col1 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #707070;
+}
+
+main .main-content2 .row2 .col1 .tabcontent {
+  display: none;
+}
+
+main .main-content2 .row2 .col1 button {
+  padding: 12px;
+  width: 220px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #153F61;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+main .main-content2 .row2 .col1 .cv:hover {
+  background-color: #707070;
+}
+
+main .main-content2 .row2 .col1 .cv:active {
+  opacity: 0.7;
+}
+
+main .main-content2 .row2 .col2 {
+  width: 50%;
+  height: 40%;
+}
+
+main .main-content2 .row2 .col2 img {
+  height: 25em;
+  padding: 20px;
+}
+
+main .main-content2 .row2 .col3 {
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+main .main-content2 .row2 .col3 .judul {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 100;
+  color: #707070;
+  text-align: center;
+}
+
+main .main-content2 .row2 .col3 .front {
+  height: 85%;
+  width: 33%;
+  padding: 10px;
+  color: #707070;
+  font-size: 20px;
+}
+
+main .main-content2 .row2 .col3 .front h6 {
+  font-size: 30px;
+}
+
+main .main-content2 .row2 .col3 .front ul li {
+  list-style: none;
+}
+
+main .main-content2 .row2 .col3 .back {
+  height: 85%;
+  width: 33%;
+  padding: 10px;
+  color: #707070;
+  font-size: 20px;
+}
+
+main .main-content2 .row2 .col3 .back h6 {
+  font-size: 30px;
+}
+
+main .main-content2 .row2 .col3 .back ul li {
+  list-style: none;
+}
+
+main .main-content2 .row2 .col3 .others {
+  height: 85%;
+  width: 34%;
+  padding: 10px;
+  color: #707070;
+  font-size: 20px;
+}
+
+main .main-content2 .row2 .col3 .others h6 {
+  font-size: 30px;
+}
+
+main .main-content2 .row2 .col3 .others ul li {
+  list-style: none;
+}
+
+main .main-content3 {
+  padding: 30px;
+  text-align: center;
+}
+
+main .main-content3 .cols1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #707070;
+}
+
+main .main-content3 img {
+  vertical-align: middle;
+}
+
+main .main-content3 .cols2 {
+  /* Position the image container (needed to position the left and right arrows) */
+  /* Hide the images by default */
+  /* Add a pointer when hovering over the thumbnail images */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Number text (1/3 etc) */
+  /* Container for image text */
+  /* Six columns side by side */
+  /* Add a transparency effect for thumnbail images */
+}
+
+main .main-content3 .cols2 .container {
+  position: relative;
+}
+
+main .main-content3 .cols2 .mySlides {
+  display: none;
+}
+
+main .main-content3 .cols2 .cursor {
+  cursor: pointer;
+}
+
+main .main-content3 .cols2 .prev,
+main .main-content3 .cols2 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #153F61;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+main .main-content3 .cols2 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+main .main-content3 .cols2 .prev {
+  left: 0;
+}
+
+main .main-content3 .cols2 .prev:hover,
+main .main-content3 .cols2 .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+main .main-content3 .cols2 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+main .main-content3 .cols2 .caption-container {
+  margin: 10px;
+  text-align: center;
+  background-color: #153F61;
+  padding: 20px;
+  color: white;
+}
+
+main .main-content3 .cols2 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .main-content3 .cols2 .column {
+  float: left;
+  width: 14%;
+}
+
+main .main-content3 .cols2 .demo {
+  opacity: 0.6;
+}
+
+main .main-content3 .cols2 .active,
+main .main-content3 .cols2 .demo:hover {
+  opacity: 1;
+}
+
+main .main-content3 .cols3 button {
+  padding: 12px;
+  width: 220px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #153F61;
+  color: white;
+  font-size: 18px;
+  margin: 25px;
+}
+
+main .main-content3 .cols3 button a {
+  text-decoration: none;
+  color: white;
+}
+
+main .main-content3 .cols3 button:hover {
+  background-color: #707070;
+}
+
+main .main-content3 .cols3 button:active {
+  opacity: 0.7;
+}
+
+main .main-content4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .main-content4 h2 {
+  font-size: 50px;
+  font-weight: 50px;
+  font-weight: 100;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+main .main-content4 .container-certi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main-content4 .container-certi .certi {
+  width: 25%;
+  margin: 20px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(95, 95, 95, 0.5);
+          box-shadow: 0px 2px 5px 0px rgba(95, 95, 95, 0.5);
+  text-align: center;
+}
+
+main .main-content4 .container-certi .certi img {
+  height: 13em;
+}
+
+main .main-content4 .container-certi .certi .btn-view {
+  margin: 10px;
+}
+
+main .main-content4 .container-certi .certi .btn-view button {
+  background-color: #153F61;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main .main-content4 .container-certi .certi .btn-view button:hover {
+  background-color: #707070;
+}
+
+main .main-content4 .container-certi .certi .btn-view button:active {
+  opacity: 0.7;
+}
+
+main .main-content4 .container-certi .certi .daftar-certi {
+  padding: 10px;
+  display: none;
+}
+
+main .main-content4 .container-certi .certi .daftar-certi .btnclose {
+  padding: 5px;
+  width: 40px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+main .main-content4 .container-certi .certi .daftar-certi .btnclose:hover {
+  opacity: 0.7;
+}
+
+main .main-content4 .container-certi .certi .daftar-certi .btnclose:active {
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+
+main .main-content4 .container-certi .certi .daftar-certi p {
+  color: #153F61;
+}
+
+footer {
+  background-color: #153F61;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+footer .social-mediaku a {
+  color: #707070;
+  margin: 10px;
+}
+
+@media (max-width: 576px) {
+  header .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .logo {
+    width: 100%;
+  }
+  header .logo img {
+    position: relative;
+    height: 70px;
+    text-align: center;
+    z-index: 4;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  header .navbar .nav {
+    display: none;
+    width: 100%;
+  }
+  header .navbar .nav a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    color: #707070;
+    padding-left: 20px;
+  }
+  header .navbar .nav a:active {
+    opacity: 0.5;
+  }
+  header .navbar .social-media {
+    display: none;
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 3px solid #dfdddd;
+  }
+  header .navbar a {
+    color: #153F61;
+  }
+  header .bars {
+    display: block;
+    position: absolute;
+    text-align: right;
+    padding-right: 20px;
+    width: 100%;
+    font-size: 30px;
+    top: 15px;
+    color: #153F61;
+  }
+  header #icon-bars:active {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: 3ms;
+    transition: 3ms;
+  }
+  main .box1 {
+    display: none;
+  }
+  main .main-content {
+    top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    left: 0px;
+    text-align: center;
+  }
+  main .main-content .m-left h5 {
+    font-size: 30px;
+  }
+  main .main-content .m-left h2 {
+    font-size: 45px;
+  }
+  main .main-content .m-left p {
+    font-size: 15px;
+  }
+  main .main-content .m-left .free {
+    font-size: 16px;
+    text-align: center;
+  }
+  main .main-content .m-left ul li {
+    font-size: 12px;
+    text-align: center;
+  }
+  main .main-content .m-left button {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  main .main-content .m-right {
+    margin-left: 0px;
+  }
+  main .main-content .m-right img {
+    height: 200px;
+  }
+  main .main-content2 {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .main-content2 .row1 {
+    display: none;
+  }
+  main .main-content2 .row2 {
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .main-content2 .row2 .col1 {
+    width: 100%;
+    text-align: center;
+  }
+  main .main-content2 .row2 .col1 a {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col1 p {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col1 button {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col2 {
+    width: 100%;
+  }
+  main .main-content2 .row2 .col2 img {
+    height: 16em;
+    padding: 25px;
+  }
+  main .main-content2 .row2 .col3 {
+    width: 100%;
+    height: 100%;
+  }
+  main .main-content2 .row2 .col3 .front h6 {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col3 .front ul li {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col3 .back h6 {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col3 .back ul li {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col3 .others h6 {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col3 .others ul li {
+    font-size: 12px;
+  }
+  main .main-content3 .cols1 {
+    font-size: 30px;
+  }
+  main .main-content3 .cols2 .row {
+    display: none;
+  }
+  main .main-content3 .cols2 .caption-container {
+    font-size: 15px;
+    background-color: transparent;
+  }
+  main .main-content3 .cols2 .caption-container p {
+    color: #153F61;
+  }
+  main .main-content3 .cols3 button a {
+    font-size: 15px;
+  }
+  main .main-content4 h2 {
+    font-size: 30px;
+  }
+  main .main-content4 .container-certi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .main-content4 .container-certi .certi {
+    width: 90%;
+  }
+  main .main-content4 .container-certi .certi img {
+    height: 10em;
+  }
+  main .main-content4 .container-certi .certi .btn-view {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  header .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .logo {
+    width: 100%;
+  }
+  header .logo img {
+    position: relative;
+    height: 70px;
+    text-align: center;
+    z-index: 4;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  header .navbar .nav {
+    display: none;
+    width: 100%;
+  }
+  header .navbar .nav a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    color: #707070;
+    padding-left: 20px;
+  }
+  header .navbar .nav a:active {
+    opacity: 0.5;
+  }
+  header .navbar .social-media {
+    display: none;
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 3px solid #dfdddd;
+  }
+  header .navbar a {
+    color: #153F61;
+  }
+  header .bars {
+    display: block;
+    position: absolute;
+    text-align: right;
+    padding-right: 20px;
+    width: 100%;
+    font-size: 30px;
+    top: 15px;
+    color: #153F61;
+  }
+  header #icon-bars:active {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: 3ms;
+    transition: 3ms;
+  }
+  main .box1 {
+    display: none;
+  }
+  main .main-content {
+    top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    left: 0px;
+    text-align: center;
+  }
+  main .main-content .m-left h5 {
+    font-size: 30px;
+  }
+  main .main-content .m-left h2 {
+    font-size: 45px;
+  }
+  main .main-content .m-left p {
+    font-size: 15px;
+  }
+  main .main-content .m-left .free {
+    font-size: 16px;
+    text-align: center;
+  }
+  main .main-content .m-left ul li {
+    font-size: 12px;
+    text-align: center;
+  }
+  main .main-content .m-left button {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  main .main-content .m-right {
+    margin-left: 0px;
+  }
+  main .main-content .m-right img {
+    height: 200px;
+  }
+  main .main-content2 {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .main-content2 .row1 {
+    display: none;
+  }
+  main .main-content2 .row2 {
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .main-content2 .row2 .col1 {
+    width: 100%;
+    text-align: center;
+  }
+  main .main-content2 .row2 .col1 a {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col1 p {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col1 button {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col2 {
+    width: 100%;
+  }
+  main .main-content2 .row2 .col2 img {
+    height: 16em;
+    padding: 25px;
+  }
+  main .main-content2 .row2 .col3 {
+    width: 100%;
+    height: 100%;
+  }
+  main .main-content2 .row2 .col3 .front h6 {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col3 .front ul li {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col3 .back h6 {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col3 .back ul li {
+    font-size: 12px;
+  }
+  main .main-content2 .row2 .col3 .others h6 {
+    font-size: 15px;
+  }
+  main .main-content2 .row2 .col3 .others ul li {
+    font-size: 12px;
+  }
+  main .main-content3 .cols1 {
+    font-size: 30px;
+  }
+  main .main-content3 .cols2 .row {
+    display: none;
+  }
+  main .main-content3 .cols2 .caption-container {
+    font-size: 15px;
+    background-color: transparent;
+  }
+  main .main-content3 .cols2 .caption-container p {
+    color: #153F61;
+  }
+  main .main-content3 .cols3 button a {
+    font-size: 15px;
+  }
+  main .main-content4 h2 {
+    font-size: 30px;
+  }
+  main .main-content4 .container-certi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .main-content4 .container-certi .certi {
+    width: 90%;
+  }
+  main .main-content4 .container-certi .certi img {
+    height: 10em;
+  }
+  main .main-content4 .container-certi .certi .btn-view {
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
